@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 i,svg{
@@ -67,6 +67,7 @@ i,svg{
 .snare, 
 .hihat{
     display: flex;
+    
 }
 
 .controls{
@@ -96,17 +97,22 @@ i,svg{
     background: rgb(236, 227, 227);
     border: none;
     cursor: pointer;
-    border-radius: 2px;
+    border-radius: 5px;
 }
 
 select{
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1rem;
     margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.mute{
+    border-radius: 5px;
 }
 
 .mute.active{
-    background: grey;
+    background: rgb(250, 132, 127);
 }
 
 .tempo{
@@ -123,6 +129,7 @@ select{
     background: rgb(236, 227, 227);
     cursor: pointer;
     border-radius: 1rem;
+    
 }
 
 .tempo p{
